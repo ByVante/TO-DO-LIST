@@ -22,7 +22,7 @@ def main():
         elif choice == '2' :
             print("\nTasks :")
             for index, task in enumerate(tasks):
-                status = "Done" if tasks["done"] else "Not Done"
+                status = "Done" if tasks["Done"] else "Not Done"
                 print(f"{index + 1}. {task['task']} - {status}")
 
         elif choice == '3' :
@@ -42,4 +42,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
