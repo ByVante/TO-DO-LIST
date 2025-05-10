@@ -19,13 +19,13 @@ def main():
                 tasks.append({"task": task, "done": False})
                 print("Task added!")
 
-        elif choice == '2' :
+        elif choice == '2':
             print("\nTasks :")
             for index, task in enumerate(tasks):
-                status = "Done" if tasks["Done"] else "Not Done"
+                status = "Done" if task["done"] else "Not Done"
                 print(f"{index + 1}. {task['task']} - {status}")
 
-        elif choice == '3' :
+        elif choice == '3':
             task_index = int(input("Enter the task number to mark as done: ")) - 1
             if 0 <= task_index < len(tasks):
                 tasks[task_index]["done"] = True
