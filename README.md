@@ -1,23 +1,20 @@
-# To-Do List App ✅
+# To-Do List (Python CLI) ✅
 
-A simple To-Do List web app built to practice front-end development skills.  
-
----
-
-## 🛠 Tech Stack
-- HTML, CSS, JavaScript  
+A simple **command-line To-Do List application** built in Python.  
+This project helped me practice Python basics, user input handling, and structuring small projects.  
 
 ---
 
-## 📖 Features
-- Add, edit, and delete tasks  
-- Mark tasks as complete  
-- Responsive layout  
+## 🛠 Features
+- Add tasks  
+- View all tasks  
+- Mark tasks as completed  
+- Delete tasks  
 
 ---
 
 ## 🚀 How to Run
-1. Clone the repository  
+1. Clone the repository:
    ```bash
    git clone https://github.com/ByVante/TO-DO-LIST.git
    cd TO-DO-LIST
